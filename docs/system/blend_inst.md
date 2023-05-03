@@ -10,7 +10,7 @@ blendOS has implemented its own installer framework, `blend-inst`, written in Py
 
 ### Partition
 
-XXX: Complete this section.
+***Keys used*: ['partition']**
 
 ### Base setup
 

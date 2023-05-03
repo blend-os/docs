@@ -27,10 +27,12 @@ title: Welcome to blendOS!
         margin-bottom: 3rem;
         border-radius: 0.4rem;
         padding: 12px 12px 12px 12px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
         color: black;
         text-decoration: none;
         transition: 0.3s;
-        opacity: 0.9;
+        opacity: 0.8;
         transition-timing-function: ease-in-out cubic-bezier(0.79, 0.33, 0.33, 0.35);
         background-color: white;
     }
@@ -44,6 +46,7 @@ title: Welcome to blendOS!
     <h1>blendOS Docs</h1>
     <p>Welcome to the blendOS docs!</p>
     <a href="/docs/intro">Read the docs</a>
+    <a href="/guides">Follow the guides</a>
 </div>
 
 <div id="contributors">

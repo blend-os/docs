@@ -43,7 +43,11 @@ const config = {
             'https://github.com/blend-os/docs/tree/main/',
         },
         blog: {
+          path: 'guides',
           showReadingTime: true,
+          routeBasePath: '/guides',
+          blogTitle: 'Guides',
+          blogSidebarTitle: 'Latest guides',
           editUrl:
             'https://github.com/blend-os/docs/tree/main/',
         },
@@ -57,8 +61,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [{name: 'keywords', content: 'docs, blend'}, {name: 'description', content: 'Official documentation and guides for blendOS.'}],
       navbar: {
-        title: 'blendOS',
+        title: 'blendOS Documentation',
         logo: {
           alt: 'blendOS Logo',
           src: 'img/logo.png',
@@ -70,7 +75,7 @@ const config = {
             position: 'left',
             label: 'Knowledge Base',
           },
-          {to: '/blog', label: 'Guides', position: 'left'},
+          {to: '/guides', label: 'Guides', position: 'left'},
           {
             href: 'https://blendos.co',
             label: 'Website',

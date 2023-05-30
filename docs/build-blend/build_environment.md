@@ -6,6 +6,12 @@ sidebar_position: 1
 
 This article details how you can set up a suitable build environment for building all of blendOS's packages and ISOs, required to proceed to the next few articles under this group.
 
+:::info
+
+These instructions are heavily inspired by the LineageOS build docs.
+
+:::
+
 ### blendOS & Arch Linux
 
 #### Pre-requisities for building on blendOS

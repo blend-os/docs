@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Building an image
 
+Now that you've set up a suitable build environment for building blendOS, we can begin with downloading blendOS's sources.
+
 ## Downloading the sources
 
 blendOS uses a "manifest" with Assemble, that essentially declares all of the packages to be downloaded by Assemble to be built locally so as to build an ISO/image. This term should be familiar if you've delved into Android ROM development in the past.

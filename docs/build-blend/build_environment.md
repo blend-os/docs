@@ -25,7 +25,7 @@ Any subsequent commands are expected to be run in the created container.
 If you're using Arch Linux, make sure your system is up-to-date.
 
 ```bash
-sudo pacman -S git archiso base-devel xorriso python python-psutil squashfs-tools
+sudo pacman -S git archiso base-devel xorriso python python-click python-psutil squashfs-tools
 ```
 
 #### Installing `assemble`
